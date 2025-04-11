@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Satisfy&display=swap");
+body {
+  background: #222;
+}
+
+.alloggi-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #ba8;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Courgette";
+  font-size: 1.2em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 2px 4px #986;
+          box-shadow: 0px 2px 4px #986;
+  border: 1px solid #222;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.back-button i {
+  margin-right: 8px;
+}
+
+.back-button:hover {
+  background: #222;
+  color: #ba8;
+  -webkit-box-shadow: 0px 4px 8px #986;
+          box-shadow: 0px 4px 8px #986;
+}
+
+.alloggi-container .product__title {
+  color: #ba8;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+/* New section-based layout styles */
+.alloggio-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4rem;
+  background: #986;
+  border-radius: 12px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 2px 4px #986;
+          box-shadow: 0px 2px 4px #986;
+  border: 1px solid #ba8;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.alloggio-section:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 4px 8px #986;
+          box-shadow: 0px 4px 8px #986;
+}
+
+.alloggio-section:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.alloggio-image-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 400px;
+}
+
+.alloggio-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.alloggio-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.alloggio-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+  font-family: "Courgette", cursive;
+}
+
+.alloggio-description {
+  color: #222;
+  line-height: 1.8;
+  font-family: "Satisfy", cursive;
+  margin-bottom: 2rem;
+}
+
+.alloggio-button {
+  display: inline-block;
+  background: #ba8;
+  color: #222;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Courgette";
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border: 1px solid #222;
+}
+
+.alloggio-button:hover {
+  background: #222;
+  color: #ba8;
+  -webkit-box-shadow: 0px 4px 8px #986;
+          box-shadow: 0px 4px 8px #986;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .alloggio-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .alloggio-section:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .alloggio-image-container {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .alloggi-container {
+    padding: 1rem;
+  }
+  .alloggio-title {
+    font-size: 1.8rem;
+  }
+  .alloggio-content {
+    padding: 1.5rem;
+  }
+  .alloggio-description {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=api.css.map */

@@ -1,0 +1,20 @@
+// Color scheme from fotogallery.scss
+$primary-color: #ba8;
+$secondary-color: #222;
+$shadow-color: #986;
+$text-light: white;
+$text-dark: #222;
+
+// Font families
+$font-primary: 'Courgette';
+$font-secondary: 'Satisfy';
+
+// Import fonts
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Satisfy&display=swap");
+
+// Common styles
+$border-radius: 12px;
+$box-shadow: 0px 2px 4px $shadow-color;
+$box-shadow-hover: 0px 4px 8px $shadow-color;
+$transition: 0.5s; 

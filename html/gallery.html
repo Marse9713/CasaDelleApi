@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="css/admin-gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Admin Gallery - Il Casale del Miele</title>
+</head>
+<body>
+    <a href="../index.html" class="back-button">
+        <i class="fas fa-arrow-left"></i> Torna alla Home
+    </a>
+
+    <div class="admin-panel">
+        <h1 class="admin-title">Gestione Galleria Foto</h1>
+        
+        <form class="upload-form" id="uploadForm">
+            <div class="form-group">
+                <label for="photoTitle">Titolo della Foto</label>
+                <input type="text" id="photoTitle" name="photoTitle" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="photoDescription">Descrizione</label>
+                <input type="text" id="photoDescription" name="photoDescription" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="photoFile">Seleziona Foto</label>
+                <input type="file" id="photoFile" name="photoFile" accept="image/*" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Carica Foto</button>
+        </form>
+
+        <div class="current-photos">
+            <h2 class="admin-title">Foto Attuali</h2>
+            <div class="photo-grid" id="photoGrid">
+                <!-- Photos will be loaded here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/admin-gallery.js"></script>
+</body>
+</html> 

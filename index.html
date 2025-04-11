@@ -5,64 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/index/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Il Casale del Miele</title>
 </head>
 
-<body>   
-    <!--nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#services">Services</a></li>
-        </ul>
-    </nav-->     
-    <section class="landscape">
-        <h1 class="landscape__title">Il casale del miele</h1>
-        <div class="landscape__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, autem
-            obcaecati eaque eligendi aperiam eum.</div>
-        <!--div class="landscape__icon"></div-->
-    </section>
-    <section class="info">
-        <div class="info__card">
-            <h2 class="info__card__title">Ma chi lo gestisce?</h2>
-            <p class="info__card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi veritatis
-                hic, facilis totam adipisci distinctio, eius ad quas dolor sapiente vero deserunt quaerat omnis ratione
-                repellat est laborum neque voluptatibus.</p>
+<body>  
+    <section class="landscape section">
+        <div class="img img-center">
+            <img src="./assets/img/casa2.png" alt="Casale del Miele - Vista esterna">
+        </div>
+        <div class="img img-right">
+            <img src="./assets/img/casa3.png" alt="Casale del Miele - Vista interna">
+        </div>
+      
+        <div class="landscape__overlay">
+            <h1 class="landscape__title">Il casale del miele</h1>
+            <div class="landscape__description">Il posto dove sentirsi a casa</div>
         </div>
     </section>
-    <section class="product">
-        <h2 class="product__title">Quello che il casale ha:</h2>
+    <section class="info section">
+        <div class="info__card">
+            <h2 class="info__card__title">Ma cos'è il casale del miele?</h2>
+            <p class="info__card__description" id="infoDescription"></p>
+        </div>
+    </section>
+    <section class="product section">
+        <h2 class="product__title">Quello che il casale offre:</h2>
         <div>
             <div class="product__card">
-                <img src="./assets/img/bnb.jpg" alt="">
-                <h3>I miei alloggi</h3>
-                <p>Ai viaggiatori che necessitano, sicuro non nego la mia ospitalità</p>
-                <button>Esplora</button>
+                <div class="card-content">
+                    <img src="./assets/img/soggiorno.png" alt="Alloggi del Casale del Miele">
+                    <h3>I miei alloggi</h3>
+                    <p>Ai viaggiatori che necessitano, sicuro non nego la mia ospitalità</p>
+                </div>
+                <a href="./html/alloggi.html" class="button">Esplora</a>
             </div>
             <div class="product__card">
-                <img src="./assets/img/girasoli.jpg" alt="">
-                <h3>Le mie apette</h3>
-                <p>Le lavoratrici di cui mi prendo cura</p>
-                <button>Esplora</button>
+                <div class="card-content">
+                    <img src="./assets/img/api 7.png" alt="Api del Casale del Miele">
+                    <h3>Le mie apette</h3>
+                    <p>Le lavoratrici di cui mi prendo cura</p>
+                </div>
+                <a href="./html/api.html" class="button">Esplora</a>
             </div>
             <div class="product__card">
-                <img src="/showcase/assets/img/ape.jpg" alt="">
-                <h3>Il mio miele</h3>
-                <p>Da Acacia a Millefiori, un piccolo scorcio sul loro lavoro!</p>
-                <button>Esplora</button>
+                <div class="card-content">
+                    <img src="./assets/img/miele.png" alt="Miele del Casale del Miele">
+                    <h3>Il mio miele</h3>
+                    <p>Da Acacia a Millefiori, un piccolo scorcio sul loro lavoro!</p>
+                </div>
+                <a href="./html/miele.html" class="button">Esplora</a>
+            </div>
+            <div class="product__card">
+                <div class="card-content">
+                    <img src="./assets/img/casa2.png" alt="Galleria foto del Casale del Miele">
+                    <h3>Galleria Foto</h3>
+                    <p>Un piccolo scorcio sul nostro angolo di paradiso</p>
+                </div>
+                <a href="./html/fotogallery.html" class="button">Esplora</a>
             </div>
         </div>
     </section>
-    <section class="contacts">
-        <div>landscape
+    <section class="contacts section">
+        <div class="contacts__card">
             <h2 class="contacts__title">Contatti</h2>
-            <p class="contacts__line">Tel : <a href="tel://+393993993993">+393993993993</a></p>
-            <p class="contacts__line">Fax : +393993993999</p>
-            <p class="contacts__line">E-mail :<a href="email://email@example.com">email@example.com</a></p>
+            <p class="contacts__line">Tel: <a href="tel:+393405173201">+39 340 517 3201</a></p>
+            <p class="contacts__line">E-mail:<a href="mailto:email@example.com"> email@example.com</a></p>
+            <p class="contacts__line">Indirizzo: <a href="https://www.google.com/maps/place/Via+Alvise+e+Zuane+Barbarigo,+2,+33050+Fraforeano+UD" target="_blank"><i class="fas fa-map-marker-alt"></i></a> Via Alvise e Zuane Barbarigo, 2, 33050 Fraforeano UD</p>
+            
+            <p class="social-links__title">Scoprici sulle nostre html social!</p>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100089651018863" target="_blank" class="social-link facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.airbnb.it/rooms/43473327?source_impression_id=p3_1744281144_P3NUqmM4i-hgZKQH" target="_blank" class="social-link airbnb">
+                    <i class="fab fa-airbnb"></i>
+                </a>
+                <a href="https://www.booking.com/hotel/it/il-casale-del-miele-ronchis-fraforeano-ud.html?aid=801134" target="_blank" class="social-link booking">
+                    <img src="./assets/img/complementary/booking.png" alt="Booking.com">
+                </a>
+                <a href="https://www.turismofvg.it/TFVGB/Booking/LinkDettaglio?id=5797&sez=0" target="_blank" class="social-link turismofvg">
+                    <img src="./assets/img/complementary/ioSonoFvg.png" alt="Turismo FVG">
+                </a>
+            </div>
         </div>
     </section>
+    <script>
+        // Load and display the content from JSON
+        fetch('./data/index.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('infoDescription').innerHTML = data.infoCardDescription.join('<br><br>');
+            })
+            .catch(error => console.error('Error loading the content:', error));
+
+        // Mobile image carousel functionality
+        function initMobileCarousel() {
+            if (window.innerWidth <= 768) {
+                const images = document.querySelectorAll('.img');
+                let currentIndex = 0;
+                let touchStartX = 0;
+
+                function showImage(index) {
+                    images.forEach(img => img.classList.remove('active'));
+                    images[index].classList.add('active');
+                }
+
+                showImage(0);
+
+                // Auto-advance slideshow
+                setInterval(() => {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    showImage(currentIndex);
+                }, 5000);
+
+                // Touch handling
+                document.addEventListener('touchstart', e => {
+                    touchStartX = e.touches[0].clientX;
+                }, { passive: true });
+
+                document.addEventListener('touchend', e => {
+                    const touchEndX = e.changedTouches[0].clientX;
+                    const diff = touchStartX - touchEndX;
+
+                    if (Math.abs(diff) > 50) {
+                        currentIndex = diff > 0 
+                            ? (currentIndex + 1) % images.length 
+                            : (currentIndex - 1 + images.length) % images.length;
+                        showImage(currentIndex);
+                    }
+                }, { passive: true });
+            }
+        }
+
+        // Initialize carousel
+        window.addEventListener('load', initMobileCarousel);
+        window.addEventListener('resize', initMobileCarousel);
+    </script>
 </body>
 
 </html>

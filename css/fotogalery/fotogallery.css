@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Satisfy&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #222;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery__title {
+  font-size: 3.5em;
+  font-family: "Courgette";
+  color: #ba8;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery__item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 4px #986;
+          box-shadow: 0px 2px 4px #986;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #ba8;
+}
+
+.gallery__item:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0px 4px 8px #986;
+          box-shadow: 0px 4px 8px #986;
+}
+
+.gallery__item:hover .gallery__item__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.gallery__item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.gallery__item .gallery__item__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(34, 34, 34, 0.9);
+  padding: 15px;
+  color: white;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
+.gallery__item .gallery__item__title {
+  font-family: "Courgette";
+  font-size: 1.2em;
+  margin: 0;
+  color: #ba8;
+}
+
+.gallery__item .gallery__item__description {
+  font-family: "Courgette";
+  font-size: 0.9em;
+  margin: 5px 0 0;
+  color: white;
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #ba8;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Courgette";
+  font-size: 1.2em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 2px 4px #986;
+          box-shadow: 0px 2px 4px #986;
+  border: 1px solid #222;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.back-button i {
+  margin-right: 8px;
+}
+
+.back-button:hover {
+  background: #222;
+  color: #ba8;
+  -webkit-box-shadow: 0px 4px 8px #986;
+          box-shadow: 0px 4px 8px #986;
+}
+/*# sourceMappingURL=fotogallery.css.map */
