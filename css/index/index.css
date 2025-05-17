@@ -687,6 +687,7 @@
     margin-top: 20px;
     z-index: 10;
     font-size: 1em;
+    display: block;
   }
   .contacts {
     height: auto;
