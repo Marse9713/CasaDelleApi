@@ -6,9 +6,9 @@ body {
 }
 
 .alloggi-container {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 0;
 }
   
 .back-button {
@@ -54,11 +54,12 @@ body {
     display: flex;
     margin-bottom: 4rem;
     background: $shadow-color;
-    border-radius: $border-radius;
+    border-radius: 0;
     overflow: hidden;
     box-shadow: $box-shadow;
     border: 1px solid $primary-color;
     transition: transform 0.3s ease;
+    width: 100%;
 }
 
 .alloggio-section:hover {
@@ -87,6 +88,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .alloggio-title {
@@ -188,7 +191,7 @@ body {
 
 @media (max-width: 768px) {
     .alloggi-container {
-        padding: 1rem;
+        padding: 1rem 0;
     }
     
     .alloggio-title {
@@ -197,6 +200,7 @@ body {
     
     .alloggio-content {
         padding: 1.5rem;
+        max-width: 100%;
     }
     
     .footer-content {
