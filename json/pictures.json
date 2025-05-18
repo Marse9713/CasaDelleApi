@@ -2,133 +2,99 @@
   "images": [
     {
       "src": "../assets/img/api 1.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 2.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 3.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 4.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 5.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
-    },
-    {
-      "src": "../assets/img/api 6.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 7.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 8.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api 9.png",
-      "title": "Api",
-      "description": "Le nostre api al lavoro"
+      "title": "Api"
     },
     {
       "src": "../assets/img/api collage 1.png",
-      "title": "Api",
-      "description": "Collage delle nostre api"
+      "title": "Api"
     },
     {
       "src": "../assets/img/bagno.png",
-      "title": "Bagno",
-      "description": "Il nostro bagno"
+      "title": "Bagno"
     },
     {
       "src": "../assets/img/bagno 1.png",
-      "title": "Bagno",
-      "description": "Il nostro bagno"
+      "title": "Bagno"
     },
     {
       "src": "../assets/img/camera 2.png",
-      "title": "Camera",
-      "description": "Una delle nostre camere"
+      "title": "Camera"
     },
     {
       "src": "../assets/img/camera 3.png",
-      "title": "Camera",
-      "description": "Una delle nostre camere"
+      "title": "Camera"
     },
     {
       "src": "../assets/img/camera1.png",
-      "title": "Camera",
-      "description": "Una delle nostre camere"
-    },
-    {
-      "src": "../assets/img/casa1.png",
-      "title": "Casa",
-      "description": "La nostra casa"
+      "title": "Camera"
     },
     {
       "src": "../assets/img/casa2.png",
-      "title": "Casa",
-      "description": "La nostra casa"
+      "title": "Casa"
     },
     {
       "src": "../assets/img/casa3.png",
-      "title": "Casa",
-      "description": "La nostra casa"
+      "title": "Casa"
     },
     {
       "src": "../assets/img/colazione 1.png",
-      "title": "Colazione",
-      "description": "La nostra colazione"
+      "title": "Colazione"
     },
     {
       "src": "../assets/img/colazione 2.png",
-      "title": "Colazione",
-      "description": "La nostra colazione"
+      "title": "Colazione"
     },
     {
       "src": "../assets/img/corridoio.png",
-      "title": "Corridoio",
-      "description": "Il nostro corridoio"
+      "title": "Corridoio"
     },
     {
       "src": "../assets/img/miele.png",
-      "title": "Miele",
-      "description": "Il nostro miele"
+      "title": "Miele"
     },
     {
       "src": "../assets/img/miele 1.png",
-      "title": "Miele",
-      "description": "Il nostro miele"
+      "title": "Miele"
     },
     {
       "src": "../assets/img/miele 2.png",
-      "title": "Miele",
-      "description": "Il nostro miele"
+      "title": "Miele"
     },
     {
       "src": "../assets/img/miele 3.png",
-      "title": "Miele",
-      "description": "Il nostro miele"
+      "title": "Miele"
     },
     {
       "src": "../assets/img/soggiorno.png",
-      "title": "Soggiorno",
-      "description": "Il nostro soggiorno"
+      "title": "Soggiorno"
     }
   ]
 }
